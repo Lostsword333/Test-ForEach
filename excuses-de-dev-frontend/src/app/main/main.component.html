@@ -1,0 +1,6 @@
+<div class="main-container">
+    <h1>Les excuses de dev</h1>
+    <p *ngIf="currentExcuse">{{ currentExcuse }}</p>
+    <app-button (generate)="generateExcuse()"></app-button>
+  </div>
+  
